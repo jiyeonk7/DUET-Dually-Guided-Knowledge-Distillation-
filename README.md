@@ -1,1 +1,1 @@
-# Dually-Guided-Knowledge-Distillation-DGKD
+# Dually Guided Knowledge Distillation (DGKD)
