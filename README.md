@@ -5,13 +5,13 @@ Tensorflow 2.6
 
 
 ## Rapid usage
-### Training teacher \#2 & student models
+### Training teacher \#2
 1. Set ./main_config.json<br/>
     model_name: CDAE<br/>
     <br/>
 2. Set ./model_config/CDAE.json  <br/>
-    hidden_dim: 100 (teacher) or 10 (student)  <br/>
-    save_output: true (teacher) or false (stduent)<br/>
+    hidden_dim: 100<br/>
+    save_output: true<br/>
    <br/>
 3. Run main.py<br/>
     <br/>
