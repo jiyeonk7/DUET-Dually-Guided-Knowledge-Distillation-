@@ -39,6 +39,5 @@ Set ./model_config/"model_name".json<br/>
 
 ## Experiment Environment Settings
 Set ./model_config.json<br/>
-        ex) data<br/>
-            dataset: "ml1m"<br/>
+    * ex) data --> dataset: "ml1m"<br/>
 
