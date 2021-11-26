@@ -25,7 +25,7 @@ Tensorflow 2.6
     teacher_dim: 100<br/>
     <br/>
 3. Set ./model/CDAE_DGKD.py<br/>
-    self.unFilePath: path for uninteresting file (file containing the result of teacher \#1)<br/>
+    self.unintFilePath: path for uninteresting file (file containing the result of teacher \#1)<br/>
     self.intFilePath: path for interesting file (file containing the result of teacher \#1)<br/>
     <br/>
 4. Run main.py<br/>
