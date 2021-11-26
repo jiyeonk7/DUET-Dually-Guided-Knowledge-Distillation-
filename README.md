@@ -28,6 +28,8 @@ Tensorflow 2.6
 3. Set ./model/CDAE_DGKD.py<br/>
     self.unintFilePath: path for uninteresting file (file containing the result of teacher \#1)<br/>
     self.intFilePath: path for interesting file (file containing the result of teacher \#1)<br/>
+    * We only uploaded a portion of the files with the result of teacher \#1
+    * The full dataset can be found at https://drive.google.com/drive/folders/11apeRr60DAZBHZHEz5zUhZCAWZZW_8F4?usp=sharing
     <br/>
 4. Run main.py<br/>
 
@@ -40,3 +42,4 @@ Set ./model_config/"model_name".json<br/>
 Set ./model_config.json<br/>
   ex) data<br/>
       dataset: "ml1m"<br/>
+
