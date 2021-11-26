@@ -1,42 +1,41 @@
 # Dually Guided Knowledge Distillation (DGKD)
 
 ## Requirements
-tensorflow 2.6
+Tensorflow 2.6
 
 
 ## Rapid usage
-# Training teacher \#2 & student models
-1. Set ./main_config.json
-    model_name: CDAE
-    
-2. Set ./model_config/CDAE.json
-    hidden_dim: 100 (teacher) or 10 (student)
-    save_output: true (teacher) or false (stduent)
-    
--- Teacher model is saved to ./data/"data_name"/"model_name".p
+### Training teacher \#2 & student models
+1. Set ./main_config.json<br/>
+    model_name: CDAE<br/>
+    <br/>
+2. Set ./model_config/CDAE.json  <br/>
+    hidden_dim: 100 (teacher) or 10 (student)  <br/>
+    save_output: true (teacher) or false (stduent)<br/>
+   <br/>
+3. Run main.py<br/>
+    <br/>
+4. Teacher model is saved to ./data/"data_name"/"model_name".p<br/>
 
-3. Run main.py 
-
-
-# Knowledge Distillation (Teacher model training required)
-1. Set ./main_config.json
-    model_name: CDAE_DGKD
-    
-2. Set ./model_config/CDAE_DGKD
-    teacher_dim: 100
-
-3. Set ./model/CDAE_DGKD.py
-    self.unFilePath: path for uninteresting file (as a result of teacher \#1)
-    self.intFilePath: path for interesting file (as a result of teacher \#1)
-    
-4. Run main.py
+### Knowledge Distillation (Teacher model training required)
+1. Set ./main_config.json<br/>
+    model_name: CDAE_DGKD<br/>
+    <br/>
+2. Set ./model_config/CDAE_DGKD<br/>
+    teacher_dim: 100<br/>
+    <br/>
+3. Set ./model/CDAE_DGKD.py<br/>
+    self.unFilePath: path for uninteresting file (as a result of teacher \#1)<br/>
+    self.intFilePath: path for interesting file (as a result of teacher \#1)<br/>
+    <br/>
+4. Run main.py<br/>
 
 
 ## Hyper-parameter settings
-Set ./model_config/"model_name".json
+Set ./model_config/"model_name".json<br/>
 
 
 ## Experiment Environment Settings
-Set ./model_config.json
-  ex) data
-      dataset: "ml1m
+Set ./model_config.json<br/>
+  ex) data<br/>
+      dataset: "ml1m"<br/>
