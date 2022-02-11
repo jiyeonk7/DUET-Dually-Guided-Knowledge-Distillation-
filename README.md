@@ -5,7 +5,7 @@
 Tensorflow 2.6
 
 
-## Rapid usage
+## Quick usage
 ### Training teacher \#2
 1. Set ./main_config.json<br/>
     model_name: CDAE<br/>
