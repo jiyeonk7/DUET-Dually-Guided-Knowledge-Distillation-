@@ -1,4 +1,4 @@
-# Dually Guided Knowledge Distillation (DGKD)
+# Dually Guided Knowledge Distillation (DUET)
 ![FFF](https://user-images.githubusercontent.com/56680371/143531372-beadf494-1c59-4d06-b5d1-b0a0ec639059.PNG)
 
 ## Requirements
